@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 50px;
+    background-color: black;
+}
+.header_center {
+    padding-top: 15px;
+}
+.header_center ul {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header_center ul ul {
+    display: none;
+    position: absolute;
+    background-color: orangered;
+}
+.header_center ul li:hover > ul {
+    display: block;
+}
+.header_center ul ul li {
+    min-width: 170px;
+    float: none;
+    position: relative;
+}
+.header_center li {
+    padding-left: 30px;
+}
+.header_left {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.header_left a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.header_right {
+    padding-top: 15px;
+}
+.hr_link {
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(212,75,56); 
+    padding: .7em 1.5em; 
+    outline: none; 
+}
+.main {
+    height: 530px;
+    background-image: url(https://lizaalert.org/wp-content/uploads/2018/12/banner-glavny-lizaalert-new-1564-2832-2000x654.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.info {
+    padding-top: 100px;
+    text-align: center;
+    height: 159px;
+    background-color: orangered;
+}
+.footer {
+    padding-top: 40px;
+    padding-left: 45%;
+    height: 90px;
+    background-color: black;
+}
+.logo {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.header_submenu_link {
+    text-decoration: none;
+    color: white;
+}
